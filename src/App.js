@@ -5,7 +5,7 @@ import './App.css';
 // Replace with your provider's API key, faucet contract address, and ABI
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 
-const faucetAddress = process.env.FAUCET_ADDRESS;
+const faucetAddress = '0xB30676D1eA2DFCD6328c2974F1bf8212908c350C';
 const faucetABI = ['function requestTokens(address _receiver) public'];
 
 function App() {
